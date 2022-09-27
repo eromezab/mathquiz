@@ -1,5 +1,5 @@
 .app{
-    background: ;
+    background: none;
     padding: 10px;
     border-radius: 2px;
     height: fit-content;
@@ -15,9 +15,6 @@
     font-size: large;
 }
 
-.retry{
-    
-}
 
 html{
     height: 103%;
