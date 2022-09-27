@@ -1,0 +1,38 @@
+.app{
+    background: ;
+    padding: 10px;
+    border-radius: 2px;
+    height: fit-content;
+    text-align: center;
+}
+
+.question{
+    font-size: x-large;
+    padding-bottom: 10%;
+}
+
+.answers{
+    font-size: large;
+}
+
+.retry{
+    
+}
+
+html{
+    height: 103%;
+}
+
+body{
+    height: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    background-size: cover;
+    background-image: linear-gradient(rgb(179, 219, 116),rgb(42, 136, 77));
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
