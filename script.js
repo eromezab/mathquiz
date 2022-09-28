@@ -33,7 +33,7 @@ function generateQuestion(){
             }
             setTimeout(() => {
                 //I want to set background back to origional
-                document.body.style.background = "black"
+                document.body.style.background = "linear-gradient(rgb(179, 219, 116),rgb(42, 136, 77))"
                 document.querySelector('.answers').innerHTML = ""
                 if (i!=correctAnswerIndex){
                     console.log(score)
