@@ -33,7 +33,7 @@ function generateQuestion(){
             }
             setTimeout(() => {
                 //I want to set background back to origional
-                document.body.style.background = "white"
+                document.body.style.background = "black"
                 document.querySelector('.answers').innerHTML = ""
                 if (i!=correctAnswerIndex){
                     console.log(score)
