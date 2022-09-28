@@ -43,7 +43,7 @@ function generateQuestion(){
                     retry.innerHTML=("Retry")
                     document.querySelector('.app').appendChild(retry)
                     retry.addEventListener('click', () => {
-                        generateQuestion()
+                        location.reload();
                     })
                     //document.querySelector('.score').appendChild=(score)
                     //put in game over code
